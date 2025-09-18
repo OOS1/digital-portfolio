@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en" data-page="contact">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Bensky Sainvilus</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Home">Bensky Sainvilus</a>
+      <button class="nav-toggle"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="nav" role="navigation" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="content" tabindex="-1">
+    <!-- Contact Hero -->
+    <section class="about-hero">
+      <div class="container">
+        <div class="about-intro">
+          <h1>Get In Touch</h1>
+          <p class="about-lead">
+            I'm always excited to connect with fellow developers, potential collaborators, and anyone interested in discussing technology, projects, or opportunities. Let's start a conversation!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="professional-section">
+      <div class="container">
+        <h2 class="section-title">Ways to Reach Me</h2>
+        <div class="contact-methods">
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <p>Best for detailed discussions and project inquiries</p>
+            <a href="mailto:benskysain@gmail.com">benskysain@gmail.com</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <h3>LinkedIn</h3>
+            <p>Professional networking and career opportunities</p>
+            <a href="https://www.linkedin.com/in/bensky-sainvilus/" target="_blank" rel="noopener noreferrer">bensky-sainvilus</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>Code collaboration and open source projects</p>
+            <a href="https://github.com/OOS1" target="_blank" rel="noopener noreferrer">@OOS1</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <h3>YouTube</h3>
+            <p>Content creation and tech discussions</p>
+            <a href="https://www.youtube.com/@skybennn" target="_blank" rel="noopener noreferrer">@skybennn</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+      <div class="container">
+        <h2 class="section-title">Send Me a Message</h2>
+        <form class="contact-form" id="contactForm">
+          
+          <div class="form-success" id="formSuccess">
+            <strong>Thank you!</strong> Your message has been sent successfully. I'll get back to you soon!
+          </div>
+          
+          <div class="form-error" id="formError">
+            <strong>Error:</strong> Please fill in all required fields correctly.
+          </div>
+          
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required placeholder="Tell me about your project, collaboration idea, or just say hello!"></textarea>
+          </div>
+          
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </div>
+        </form>
+
+        <div class="availability">
+          <h3>Current Availability</h3>
+          <p>
+            I'm actively seeking opportunities in web development and am available for:
+          </p>
+          <ul>
+            <li>Freelance projects and contract work</li>
+            <li>Full-time entry-level positions</li>
+            <li>Collaborative open-source projects</li>
+            <li>Mentorship and learning opportunities</li>
+            <li>Technical discussions and code reviews</li>
+          </ul>
+          <p>
+            <strong>Response Time:</strong> I typically respond to messages within 24-48 hours. For urgent matters, LinkedIn direct messages tend to get the fastest response.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Links -->
+    <section class="skills-summary">
+      <div class="container">
+        <h2 class="section-title">Connect on Social Media</h2>
+        <div class="social-links">
+          <a href="https://github.com/OOS1" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bensky-sainvilus/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.youtube.com/@skybennn" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="mailto:benskysain@gmail.com" class="social-link" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="about-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Collaborate?</h2>
+          <p>Whether you have a project in mind, want to discuss technology, or just want to connect, I'd love to hear from you!</p>
+          <div class="cta-actions">
+            <a href="mailto:benskysain@gmail.com" class="btn btn-primary">Send Email</a>
+            <a href="projects.html" class="btn btn-secondary">View My Work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h4>Bensky Sainvilus</h4>
+          <p>Full-Stack Developer in Training</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/OOS1" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/bensky-sainvilus/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.youtube.com/@skybennn" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="mailto:benskysain@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2025</span> Bensky Sainvilus. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Contact form handling
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const formData = new FormData(this);
+      const name = formData.get('name');
+      const email = formData.get('email');
+      const subject = formData.get('subject');
+      const message = formData.get('message');
+      
+      // Basic validation
+      if (!name || !email || !subject || !message) {
+        showFormMessage('error', 'Please fill in all required fields.');
+        return;
+      }
+      
+      if (!isValidEmail(email)) {
+        showFormMessage('error', 'Please enter a valid email address.');
+        return;
+      }
+      
+      // Simulate form submission (in real implementation, this would send to a server)
+      setTimeout(() => {
+        showFormMessage('success', 'Thank you! Your message has been sent successfully.');
+        this.reset();
+      }, 1000);
+    });
+    
+    function showFormMessage(type, message) {
+      const successEl = document.getElementById('formSuccess');
+      const errorEl = document.getElementById('formError');
+      
+      // Hide both messages first
+      successEl.style.display = 'none';
+      errorEl.style.display = 'none';
+      
+      // Show appropriate message
+      if (type === 'success') {
+        successEl.style.display = 'block';
+        successEl.querySelector('strong + span')?.remove();
+        successEl.innerHTML = successEl.innerHTML.replace(/Your message.*/, message);
+      } else {
+        errorEl.style.display = 'block';
+        errorEl.innerHTML = `<strong>Error:</strong> ${message}`;
+      }
+      
+      // Scroll to message
+      document.querySelector('.contact-form').scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start' 
+      });
+    }
+    
+    function isValidEmail(email) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+  </script>
+</body>
+</html>

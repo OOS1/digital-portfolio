@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" data-page="home">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bensky Sainvilus — Digital Portfolio</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Home">Bensky Sainvilus</a>
+      <button class="nav-toggle"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="nav" role="navigation" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="content" tabindex="-1">
+    <!-- Hero Section with Introduction -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi, I'm Bensky Sainvilus</h1>
+            <p class="hero-subtitle">Full-Stack Developer</p>
+            <p class="hero-description">
+              Welcome to my digital portfolio. I'm passionate about creating responsive, user-friendly web applications 
+              and constantly expanding my skills in modern web technologies. Explore my work, learn about my journey, 
+              and let's connect!
+            </p>
+            
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="projects.html">View My Work</a>
+              <a class="btn btn-secondary" href="about.html">Learn About Me</a>
+            </div>
+          </div>
+
+          <!-- Professional Headshot -->
+          <div class="hero-image">
+            <img src="images/IMG_0611.JPG" alt="Bensky Sainvilus - Professional headshot">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <section class="quick-nav">
+      <div class="container">
+        <h2 class="section-title">Explore My Portfolio</h2>
+        <div class="nav-grid">
+          
+          <a href="about.html" class="nav-card">
+            <div class="nav-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <h3>About Me</h3>
+            <p>Learn about my background, education, and what drives my passion for development</p>
+          </a>
+          
+          <a href="projects.html" class="nav-card">
+            <div class="nav-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Projects</h3>
+            <p>Explore my portfolio of web applications and development work</p>
+          </a>
+          
+          <a href="skills.html" class="nav-card">
+            <div class="nav-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Skills</h3>
+            <p>Discover my technical abilities and current learning journey</p>
+          </a>
+          
+          <a href="contact.html" class="nav-card">
+            <div class="nav-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Get In Touch</h3>
+            <p>Ready to collaborate? Let's discuss opportunities and projects</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h4>Bensky Sainvilus</h4>
+          <p>Full-Stack Developer</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/OOS1" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/bensky-sainvilus/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:benskysain@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2025</span> Bensky Sainvilus. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
